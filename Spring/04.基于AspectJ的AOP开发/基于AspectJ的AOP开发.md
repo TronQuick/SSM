@@ -73,3 +73,129 @@
     execution(* com.imooc.dao.GenericDAO+.*(..))
 
   - 匹配所有save开头的方法 exection(* save*(..))
+
+- 例：
+
+```java
+//切面类：
+
+@Aspect
+public class MyAspectAnno {
+
+    @Before(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.*(..))")
+    public void before() {
+        System.out.println("前置通知==================" );
+    }
+
+}
+```
+
+
+
+## @Before前置通知
+
+- **可以在方法中传入JoinPoint对象，用来获得切点信息**
+
+```java
+//切面类：获取切点信息JoinPoint，并打印
+@Before(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.*(..))")
+    public void before(JoinPoint joinPoint) {
+        System.out.println("前置通知=================="+joinPoint);
+}
+```
+
+
+
+## @AfterReturning 后置通知
+
+- **通过returning属性，可以定义方法返回值，作为参数：**
+
+  (因为可能是任意类型返回值，所以用Object类接收)
+
+```java
+//后置通知类型:获取目标方法中的返回值，命名其为result，并打印
+@AfterReturning(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.*(..))",returning = "result")
+public void afterReturning(Object result) {
+    System.out.println("后置通知========="+result);
+}
+```
+
+
+
+## @Around 环绕通知
+
+- **around方法的返回值就是目标代理方法执行返回值**
+- **参数为ProceedingJoinPoint可以调用拦截目标方法执行**
+
+- **如果不调用ProceedingJoinPoint的proceed()方法，目标方法被拦截（不执行）**
+
+- 例：
+
+  ```java
+  //环绕通知类：
+  @Around(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.delete(..))")
+  public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
+      System.out.println("环绕前通知====");
+  
+      //如果不调用ProceedingJoinPoint的proceed()方法，目标方法被拦截（不执行）
+      Object object= joinPoint.proceed();//执行目标方法
+  
+      System.out.println("环绕后通知====");
+      return object;
+  }
+  ```
+
+  
+
+## @AfterThrowing 异常抛出通知
+
+- **通过设置throwing属性，可以设置发生异常对象参数**
+
+- 只有发生异常的时候才会被执行
+
+- **可以通过属性throwing，返回异常信息Throwable类型值，接收异常信息**
+
+  ```java
+  //接收并打印异常信息
+  @AfterThrowing(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.findOne(..))",throwing = "e")
+  public void afterThrowing(Throwable e) {
+      System.out.println("异常抛出通知===="+e.getMessage());
+  }
+  ```
+
+
+
+## @After 最终通知
+
+- 无论是否出现异常，最终通知总是会被执行的
+
+```java
+@After(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.findAll(..))")
+public void after() {
+    System.out.println("最终通知===");
+}
+```
+
+
+
+## 通过 @Pointcut 为切点命名
+
+- **在每个通知内定义切点，会造成工作量大，不易维护，对于重复的切点，可以使用@Pointcut进行定义**
+- **切点方法：private void 无参数方法，方法名为切点名**
+- **当通知多个切点时，可以使用||进行连接**
+
+例：
+
+```java
+//定义切点
+@Pointcut(value = "execution(* com.imooc.aspectJ.demo1.ProductDao.save(..))")
+public void myPointcut1() {}
+
+//使用切点进行前置增强
+@Before(value = "myPointcut1()")
+public void before(JoinPoint joinPoint) {
+    System.out.println("前置通知=================="+joinPoint);
+}
+
+```
+
