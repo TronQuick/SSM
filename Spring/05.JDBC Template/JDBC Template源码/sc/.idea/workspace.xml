@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d408a8dd-1f74-4dd9-955f-dbd0c8b0d55f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/JavaWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/1220001-20170905175004757-1285779321.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/1220001-20170905175021319-1760468769.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/1557891828878.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/artifacts/spring_ioc_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/artifacts/spring_ioc_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/spring_ioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/src/main/java/com/imooc/ioc/demo1/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/src/main/java/com/imooc/ioc/demo1/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/src/main/java/com/imooc/ioc/demo1/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/target/classes/com/imooc/ioc/demo1/SpringDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/target/classes/com/imooc/ioc/demo1/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/target/classes/com/imooc/ioc/demo1/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/Spring入门源码/spring_ioc/spring_ioc/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/spring_ioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/src/main/java/com/imooc/ioc/demo1/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/src/main/java/com/imooc/ioc/demo1/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/src/main/java/com/imooc/ioc/demo1/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/src/main/java/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/src/main/java/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/target/classes/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/target/classes/com/imooc/ioc/demo1/SpringDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/target/classes/com/imooc/ioc/demo1/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/target/classes/com/imooc/ioc/demo1/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/target/classes/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01.Spring入门/spring_ioc/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/20190516104517.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/artifacts/spring_ioc_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/artifacts/spring_ioc_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/spring_ioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo1/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo1/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo1/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo2/Bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo2/Bean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo2/Bean2Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo2/Bean3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo2/Bean3Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo2/SpringDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo3/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo3/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo3/SpringDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo3/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo3/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo4/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo4/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo4/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo4/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo4/ProductInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo4/SpringDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo4/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo5/CollectionBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/java/com/imooc/ioc/demo5/SpringDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo1/SpringDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo1/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo1/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo2/Bean1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo2/Bean2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo2/Bean2Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo2/Bean3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo2/Bean3Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo2/SpringDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo3/Man.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo3/MyBeanPostProcessor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo3/MyBeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo3/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo3/SpringDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo3/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo3/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo4/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo4/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo4/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo4/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo4/ProductInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo4/SpringDemo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo4/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo5/CollectionBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/com/imooc/ioc/demo5/SpringDemo5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/artifacts/spring_ioc_annotation_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/artifacts/spring_ioc_annotation_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/spring_ioc_annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo1/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo1/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo1/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo2/Bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo2/Bean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo2/SpringDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo3/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo3/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo3/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/java/com/imooc/demo3/SpringDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo1/SpringDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo1/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo1/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo2/Bean1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo2/Bean2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo2/SpringDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo3/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo3/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo3/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/com/imooc/demo3/SpringDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/Spring Bean管理源码/spring_ioc_annotation/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/SpringBean管理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/spring_ioc_annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo1/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo1/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo1/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo2/Bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo2/Bean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo2/SpringDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo3/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo3/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo3/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/java/com/imooc/demo3/SpringDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo1/SpringDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo1/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo1/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo2/Bean1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo2/Bean2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo2/SpringDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo3/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo3/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo3/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/com/imooc/demo3/SpringDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02.Spring Bean管理/spring_ioc_annotation/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/AOP1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/artifacts/spring_aop_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/artifacts/spring_aop_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/libraries/Maven__org_springframework_spring_test_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/spring_aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo1/MyJdkProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo1/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo1/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo1/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo2/MyCglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo2/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo2/SpringDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo3/MyBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo3/SpringDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo3/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo3/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo4/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo4/MyAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo4/SpringDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo5/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo5/MyAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo5/MyBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo5/SpringDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo5/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo5/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo6/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo6/MyAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo6/MyBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo6/SpringDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo6/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/java/com/imooc/aop/demo6/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/resources/applicationContext3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/resources/applicationContext4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/applicationContext3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/applicationContext4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo1/MyJdkProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo1/SpringDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo1/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo1/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo2/MyCglibProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo2/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo2/SpringDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo3/MyBeforeAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo3/SpringDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo3/StudentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo3/StudentDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo4/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo4/MyAroundAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo4/SpringDemo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo5/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo5/MyAroundAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo5/MyBeforeAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo5/SpringDemo5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo5/StudentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo5/StudentDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo6/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo6/MyAroundAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo6/MyBeforeAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo6/SpringDemo6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo6/StudentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/Spring AOP源码/spring_aop/target/classes/com/imooc/aop/demo6/StudentDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo1/MyJdkProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo1/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo1/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo1/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo2/MyCglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo2/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo2/SpringDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo3/MyBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo3/SpringDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo3/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo3/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo4/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo4/MyAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo4/SpringDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo5/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo5/MyAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo5/MyBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo5/SpringDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo5/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo5/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo6/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo6/MyAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo6/MyBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo6/SpringDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo6/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/java/com/imooc/aop/demo6/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/resources/applicationContext3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/resources/applicationContext4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/webapp/WEB-INF/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/applicationContext3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/applicationContext4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo1/MyJdkProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo1/SpringDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo1/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo1/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo2/MyCglibProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo2/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo2/SpringDemo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo3/MyBeforeAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo3/SpringDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo3/StudentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo3/StudentDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo4/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo4/MyAroundAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo4/SpringDemo4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo5/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo5/MyAroundAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo5/MyBeforeAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo5/SpringDemo5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo5/StudentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo5/StudentDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo6/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo6/MyAroundAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo6/MyBeforeAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo6/SpringDemo6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo6/StudentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03.Spring AOP/spring_aop/target/classes/com/imooc/aop/demo6/StudentDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/Spring的AspectJ.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/spring_aspect/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/spring_aspect/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/spring_aspect/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/spring_aspect/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/spring_aspect/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/spring_aspect/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/spring_aspect/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/spring_aspect/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/artifacts/spring_aspect_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/artifacts/spring_aspect_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/libraries/Maven__org_springframework_spring_test_4_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/spring_aspect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/java/com/imooc/aspectJ/demo1/MyAspectAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/java/com/imooc/aspectJ/demo1/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/java/com/imooc/aspectJ/demo1/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/java/com/imooc/aspectJ/demo2/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/java/com/imooc/aspectJ/demo2/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/java/com/imooc/aspectJ/demo2/MyAspectXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/java/com/imooc/aspectJ/demo2/SpringDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/target/classes/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/target/classes/com/imooc/aspectJ/demo1/MyAspectAnno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/target/classes/com/imooc/aspectJ/demo1/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/target/classes/com/imooc/aspectJ/demo1/SpringDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/target/classes/com/imooc/aspectJ/demo2/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/target/classes/com/imooc/aspectJ/demo2/CustomerDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/target/classes/com/imooc/aspectJ/demo2/MyAspectXml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04.基于AspectJ的AOP开发/基于AspectJ的AOP开发源码/spring_aspect/target/classes/com/imooc/aspectJ/demo2/SpringDemo2.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="48" column="43" selection-start-line="44" selection-start-column="8" selection-end-line="48" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1520216742499" expanded="true" signature="710:753" ph="create table... user1" />
+                <marker date="1520216742499" expanded="true" signature="816:857" ph="insert into student... " />
+                <marker date="1520216742499" expanded="true" signature="977:1012" ph="update stude... " />
+                <marker date="1520216742499" expanded="true" signature="1141:1187" ph="insert into student... " />
+                <marker date="1520216742499" expanded="true" signature="1207:1253" ph="insert into student... " />
+                <marker date="1520216742499" expanded="true" signature="1273:1313" ph="update stude... " />
+                <marker date="1520216742499" expanded="true" signature="1431:1480" ph="insert into selection... " />
+                <marker date="1520216742499" expanded="true" signature="1735:1763" ph="select count... student" />
+                <marker date="1520216742499" expanded="true" signature="1934:1970" ph="select name student" />
+                <marker date="1520216742499" expanded="true" signature="2148:2182" ph="select * fro... student" />
+                <marker date="1520216742499" expanded="true" signature="2349:2370" ph="select * fro... student" />
+                <marker date="1520216742499" expanded="true" signature="2544:2578" ph="select * fro... student" />
+                <marker date="1520216742499" expanded="true" signature="2784:2805" ph="select * fro... student" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Selection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/StudentDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="30" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/impl/StudentDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1520217694742" expanded="true" signature="577:625" ph="insert into student... " />
+                <marker date="1520217694742" expanded="true" signature="770:819" ph="update stude... " />
+                <marker date="1520217694742" expanded="true" signature="971:1001" ph="delete from " />
+                <marker date="1520217694742" expanded="true" signature="1106:1138" ph="select * fro... student" />
+                <marker date="1520217694742" expanded="true" signature="1284:1305" ph="select * fro... student" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/impl/CourseDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1520217940303" expanded="true" signature="611:653" ph="insert into course... " />
+                <marker date="1520217940303" expanded="true" signature="794:837" ph="update cours... " />
+                <marker date="1520217940303" expanded="true" signature="986:1015" ph="delete from " />
+                <marker date="1520217940303" expanded="true" signature="1119:1150" ph="select * fro... course" />
+                <marker date="1520217940303" expanded="true" signature="1294:1314" ph="select * fro... course" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/impl/SelectionDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#622#632#0" expanded="true" />
+                <marker date="1520218829313" expanded="true" signature="539:576" ph="insert into selection... " />
+                <marker date="1520218829313" expanded="true" signature="1013:1063" ph="delete from " />
+                <marker date="1520218829313" expanded="true" signature="1201:1422" ph="select se.*,... selection" />
+                <marker date="1520218829313" expanded="true" signature="1568:1788" ph="select se.*,... selection" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sc.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>update</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/TestExecute.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Course.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Selection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/impl/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/impl/CourseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/SelectionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/impl/SelectionDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="H:\workspace\maven\repository" />
+        <option name="mavenHome" value="H:/Soft/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="H:\workspace\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="20" />
+    <option name="y" value="112" />
+    <option name="width" value="1825" />
+    <option name="height" value="880" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\workspace\IdeaProjects\sc\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Test">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestExecute" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestExecute" />
+      <item itemvalue="JUnit.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test" />
+        <item itemvalue="JUnit.TestExecute" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d408a8dd-1f74-4dd9-955f-dbd0c8b0d55f" name="Default" comment="" />
+      <created>1520012971324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520012971324</updated>
+      <workItem from="1520012974754" duration="3476000" />
+      <workItem from="1520064615802" duration="5901000" />
+      <workItem from="1520191942705" duration="4656000" />
+      <workItem from="1520206682192" duration="13790000" />
+      <workItem from="1563777161688" duration="840000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test - 2018.03.05 at 08h 49m 29s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.03.05 at 09h 29m 18s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.03.05 at 09h 31m 24s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.03.05 at 09h 48m 12s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.03.05 at 09h 50m 36s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.03.05 at 09h 52m 39s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.03.05 at 09h 59m 26s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.03.05 at 09h 59m 53s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.03.05 at 10h 00m 16s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test - 2018.03.05 at 10h 25m 18s.xml">
+      <configuration name="Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28663000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="16" y="90" width="1460" height="704" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.30242512" />
+      <window_info id="Structure" order="5" weight="0.25" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3281787" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32984293" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Spring" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3281787" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Dynamic Properties" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../../.." />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestExecute.java" />
+    <entry file="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/spring-jdbc/4.0.2.RELEASE/spring-jdbc-4.0.2.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/com/imooc/sc/dao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Course.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/CourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/SelectionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="48" column="43" selection-start-line="44" selection-start-column="8" selection-end-line="48" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1520216742499" expanded="true" signature="710:753" ph="create table... user1" />
+            <marker date="1520216742499" expanded="true" signature="816:857" ph="insert into student... " />
+            <marker date="1520216742499" expanded="true" signature="977:1012" ph="update stude... " />
+            <marker date="1520216742499" expanded="true" signature="1141:1187" ph="insert into student... " />
+            <marker date="1520216742499" expanded="true" signature="1207:1253" ph="insert into student... " />
+            <marker date="1520216742499" expanded="true" signature="1273:1313" ph="update stude... " />
+            <marker date="1520216742499" expanded="true" signature="1431:1480" ph="insert into selection... " />
+            <marker date="1520216742499" expanded="true" signature="1735:1763" ph="select count... student" />
+            <marker date="1520216742499" expanded="true" signature="1934:1970" ph="select name student" />
+            <marker date="1520216742499" expanded="true" signature="2148:2182" ph="select * fro... student" />
+            <marker date="1520216742499" expanded="true" signature="2349:2370" ph="select * fro... student" />
+            <marker date="1520216742499" expanded="true" signature="2544:2578" ph="select * fro... student" />
+            <marker date="1520216742499" expanded="true" signature="2784:2805" ph="select * fro... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Selection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="30" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/impl/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1520217694742" expanded="true" signature="577:625" ph="insert into student... " />
+            <marker date="1520217694742" expanded="true" signature="770:819" ph="update stude... " />
+            <marker date="1520217694742" expanded="true" signature="971:1001" ph="delete from " />
+            <marker date="1520217694742" expanded="true" signature="1106:1138" ph="select * fro... student" />
+            <marker date="1520217694742" expanded="true" signature="1284:1305" ph="select * fro... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/impl/CourseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1520217940303" expanded="true" signature="611:653" ph="insert into course... " />
+            <marker date="1520217940303" expanded="true" signature="794:837" ph="update cours... " />
+            <marker date="1520217940303" expanded="true" signature="986:1015" ph="delete from " />
+            <marker date="1520217940303" expanded="true" signature="1119:1150" ph="select * fro... course" />
+            <marker date="1520217940303" expanded="true" signature="1294:1314" ph="select * fro... course" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/impl/SelectionDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#632#0" expanded="true" />
+            <marker date="1520218829313" expanded="true" signature="539:576" ph="insert into selection... " />
+            <marker date="1520218829313" expanded="true" signature="1013:1063" ph="delete from " />
+            <marker date="1520218829313" expanded="true" signature="1201:1422" ph="select se.*,... selection" />
+            <marker date="1520218829313" expanded="true" signature="1568:1788" ph="select se.*,... selection" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
