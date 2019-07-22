@@ -21,13 +21,19 @@
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="
-	http://www.springframework.org/schema/beans	http://www.springframework.org/schema/beans/spring-beans.xsd                             http://www.springframework.org/schema/aop                                        	http://www.springframework.org/schema/aop/spring-aop.xsd"> 
-  
-  <!--开启AspectJ自动代理-->
-  <aop:aspectj-autoproxy />
-  
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--开启AspectJ的注解开发，自动代理=====================-->
+    <aop:aspectj-autoproxy/>
+
+    <!--目标类===================-->
+    <bean id="productDao" class="com.imooc.aspectJ.demo1.ProductDao"/>
+
+    <!--定义切面-->
+    <bean class="com.imooc.aspectJ.demo1.MyAspectAnno"/>
 </beans>
 ```
 
@@ -196,6 +202,93 @@ public void myPointcut1() {}
 public void before(JoinPoint joinPoint) {
     System.out.println("前置通知=================="+joinPoint);
 }
+```
 
+
+
+## AspectJ的XML方式开发aop
+
+案例：
+
+
+
+- 切面类：
+
+```java
+public class MyAspectXml {
+
+    //前置通知
+    public void before(JoinPoint joinPoint) {
+        System.out.println("XML方式的前置通知======"+joinPoint);
+    }
+
+    //后置通知
+    public void afterReturning(Object result) {
+        System.out.println("XML方式的后置通知======"+result);
+    }
+
+    //环绕通知
+    public Object around(ProceedingJoinPoint joinPoint) throws Throwable {
+        System.out.println("XML方式的环绕前通知===");
+        Object object = joinPoint.proceed();
+        System.out.println("XML方式的环绕后通知===");
+        return object;
+    }
+
+    //异常抛出
+    public void afterThrowing(Throwable throwable) {
+        System.out.println("XML方式的异常抛出通知==="+throwable.getMessage());
+    }
+
+    //最终通知
+    public void after() {
+        System.out.println("XML方式的最终通知===");
+    }
+}
+```
+
+- 配置文件：
+
+```xml
+<!--aop的相关配置=================-->
+<aop:config>
+    <!--配置切入点-->
+    <aop:pointcut id="pointcut1" expression="execution(* com.imooc.aspectJ.demo2.CustomerDao.save(..))"/>
+    <aop:pointcut id="pointcut2" expression="execution(* com.imooc.aspectJ.demo2.CustomerDao.update(..))"/>
+    <aop:pointcut id="pointcut3" expression="execution(* com.imooc.aspectJ.demo2.CustomerDao.delete(..))"/>
+    <aop:pointcut id="pointcut4" expression="execution(* com.imooc.aspectJ.demo2.CustomerDao.findOne(..))"/>
+    <aop:pointcut id="pointcut5" expression="execution(* com.imooc.aspectJ.demo2.CustomerDao.findAll(..))"/>
+    <!--配置AOP的切面-->
+    <aop:aspect ref="myAspectXml">
+        <!--配置前置通知-->
+        <aop:before method="before" pointcut-ref="pointcut1"/>
+        <!--配置后置通知-->
+        <aop:after-returning method="afterReturning" pointcut-ref="pointcut2" returning="result"/>
+        <!--配置环绕通知-->
+        <aop:around method="around" pointcut-ref="pointcut3"/>
+        <!--配置异常抛出通知-->
+        <aop:after-throwing method="afterThrowing" pointcut-ref="pointcut4" throwing="throwable"/>
+        <!--配置最终通知-->
+        <aop:after method="after" pointcut-ref="pointcut5"/>
+    </aop:aspect>
+
+</aop:config>
+```
+
+
+
+输出结果：
+
+```
+XML方式的前置通知======execution(void com.imooc.aspectJ.demo2.CustomerDao.save())
+保存客户...
+修改用户...
+XML方式的后置通知======Spring
+XML方式的环绕前通知===
+删除用户...
+XML方式的环绕后通知===
+查询一个用户...
+查询所有用户...
+XML方式的最终通知===
 ```
 
