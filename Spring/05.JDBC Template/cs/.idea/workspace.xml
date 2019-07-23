@@ -459,46 +459,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Impl/SelectionDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+            <state relative-caret-position="97">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#1473#1483#0" expanded="true" />
+                <element signature="e#664#674#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://a5407e92-9a53-425f-8e5f-0d4343304bd8/schema/selection_course/table/student">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state projectRestartId="b3b26ad1-593f-411d-a8ca-1d7b77f130ae">
-              <filtering>
-                <filter text="" />
-              </filtering>
             </state>
           </provider>
         </entry>
@@ -510,6 +479,18 @@
               <filtering>
                 <filter text="" />
               </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Impl/StudentDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -529,10 +510,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/enity/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/selection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Impl/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/CourseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Impl/CoureseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/SelectionDao.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Impl/SelectionDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
       </list>
     </option>
   </component>
@@ -543,11 +533,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-12" />
-    <option name="y" value="18" />
-    <option name="width" value="1845" />
-    <option name="height" value="1012" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="7" />
+    <option name="y" value="56" />
+    <option name="width" value="1624" />
+    <option name="height" value="953" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -578,7 +568,44 @@
               <item name="sc" type="b2602c69:ProjectViewProjectNode" />
               <item name="cs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sc" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -595,12 +622,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JDBC Template源码/sc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.sc.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\JavaWeb\SSM\Spring\05.JDBC Template\cs\src\main\resources" />
     </key>
@@ -617,52 +648,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.testBatchUpdate2">
-    <configuration name="Test.testBatchUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Test.testQueryMap2">
+    <configuration name="Test.testQueryEntity1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cs" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="testBatchUpdate" />
+      <option name="METHOD_NAME" value="testQueryEntity1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.testBatchUpdate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.testQueryEntity2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cs" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="testBatchUpdate2" />
+      <option name="METHOD_NAME" value="testQueryEntity2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.testQueryForSimple2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cs" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="testExecute" />
+      <option name="METHOD_NAME" value="testQueryForSimple2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.testQueryMap1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cs" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="METHOD_NAME" value="testQueryMap1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.testUpdate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.testQueryMap2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cs" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="testUpdate2" />
+      <option name="METHOD_NAME" value="testQueryMap2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -670,11 +701,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.testBatchUpdate2" />
-        <item itemvalue="JUnit.Test.testBatchUpdate" />
-        <item itemvalue="JUnit.Test.testUpdate2" />
-        <item itemvalue="JUnit.Test.testUpdate" />
-        <item itemvalue="JUnit.Test.testExecute" />
+        <item itemvalue="JUnit.Test.testQueryMap2" />
+        <item itemvalue="JUnit.Test.testQueryEntity2" />
+        <item itemvalue="JUnit.Test.testQueryEntity1" />
+        <item itemvalue="JUnit.Test.testQueryMap1" />
+        <item itemvalue="JUnit.Test.testQueryForSimple2" />
       </list>
     </recent_temporary>
   </component>
@@ -688,38 +719,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563775606397</updated>
-      <workItem from="1563775612499" duration="9339000" />
+      <workItem from="1563775612499" duration="27754000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_testExecute - 2019.07.22 at 15h 05m 04s.xml">
-      <configuration name="Test.testExecute" configurationId="JUnit" />
+    <history-entry file="Test_testQueryForSimple2 - 2019.07.23 at 09h 20m 27s.xml">
+      <configuration name="Test.testQueryForSimple2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testUpdate - 2019.07.22 at 15h 54m 52s.xml">
-      <configuration name="Test.testUpdate" configurationId="JUnit" />
+    <history-entry file="Test_testQueryMap1 - 2019.07.23 at 09h 41m 42s.xml">
+      <configuration name="Test.testQueryMap1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testUpdate2 - 2019.07.22 at 16h 11m 05s.xml">
-      <configuration name="Test.testUpdate2" configurationId="JUnit" />
+    <history-entry file="Test_testQueryMap2 - 2019.07.23 at 09h 49m 09s.xml">
+      <configuration name="Test.testQueryMap2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testBatchUpdate - 2019.07.22 at 16h 18m 47s.xml">
-      <configuration name="Test.testBatchUpdate" configurationId="JUnit" />
+    <history-entry file="Test_testQueryEntity1 - 2019.07.23 at 10h 33m 35s.xml">
+      <configuration name="Test.testQueryEntity1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testBatchUpdate - 2019.07.22 at 16h 19m 43s.xml">
-      <configuration name="Test.testBatchUpdate" configurationId="JUnit" />
+    <history-entry file="Test_testQueryEntity1 - 2019.07.23 at 10h 34m 46s.xml">
+      <configuration name="Test.testQueryEntity1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testBatchUpdate2 - 2019.07.22 at 17h 11m 54s.xml">
-      <configuration name="Test.testBatchUpdate2" configurationId="JUnit" />
+    <history-entry file="Test_testQueryEntity1 - 2019.07.23 at 10h 36m 11s.xml">
+      <configuration name="Test.testQueryEntity1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_testBatchUpdate2 - 2019.07.22 at 17h 12m 31s.xml">
-      <configuration name="Test.testBatchUpdate2" configurationId="JUnit" />
+    <history-entry file="Test_testQueryEntity1 - 2019.07.23 at 10h 37m 50s.xml">
+      <configuration name="Test.testQueryEntity1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testQueryEntity1 - 2019.07.23 at 10h 40m 19s.xml">
+      <configuration name="Test.testQueryEntity1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testQueryEntity2 - 2019.07.23 at 11h 10m 09s.xml">
+      <configuration name="Test.testQueryEntity2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testQueryMap2 - 2019.07.23 at 13h 58m 24s.xml">
+      <configuration name="Test.testQueryMap2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9339000" />
+    <option name="totallyTimeSpent" value="27754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="15" width="1476" height="809" extended-state="0" />
+    <frame x="6" y="45" width="1299" height="762" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -727,27 +767,27 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2633803" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24657534" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32956153" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3293944" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31268436" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32890856" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.32890856" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32890856" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.32890856" />
+      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32890856" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280507" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Run" order="14" weight="0.5784469" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="right" id="Database" visible="true" weight="0.34696755" />
+      <window_info anchor="right" id="Database" visible="true" weight="0.14504431" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -774,28 +814,79 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a5407e92-9a53-425f-8e5f-0d4343304bd8/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://a5407e92-9a53-425f-8e5f-0d4343304bd8/schema/selection_course/table/course">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="b3b26ad1-593f-411d-a8ca-1d7b77f130ae">
-          <filtering>
-            <filter text="" />
-          </filtering>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/CourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Impl/CoureseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a5407e92-9a53-425f-8e5f-0d4343304bd8/schema/selection_course/table/selection">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="b3b26ad1-593f-411d-a8ca-1d7b77f130ae">
-          <filtering>
-            <filter text="" />
-          </filtering>
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -808,15 +899,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/entity/Selection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/SelectionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="282">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
             <element signature="e#1473#1483#0" expanded="true" />
+            <element signature="e#2992#3445#0" expanded="true" />
+            <element signature="e#3444#3445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Impl/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a5407e92-9a53-425f-8e5f-0d4343304bd8/schema/selection_course/table/course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b3b26ad1-593f-411d-a8ca-1d7b77f130ae">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a5407e92-9a53-425f-8e5f-0d4343304bd8/schema/selection_course/table/selection">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b3b26ad1-593f-411d-a8ca-1d7b77f130ae">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/sc/dao/Impl/SelectionDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#664#674#0" expanded="true" />
           </folding>
         </state>
       </provider>
