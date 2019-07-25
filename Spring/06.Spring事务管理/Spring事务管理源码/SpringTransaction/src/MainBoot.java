@@ -17,14 +17,14 @@ public class MainBoot {
     public static void main(final String[] args) throws Exception {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("/springContext.xml");//, MainBoot.class
         out.println(ctx);
-        Book book = new Book("isbn-333-","古文大全",321.5f,new Date(System.currentTimeMillis()));
+        Book book = new Book("test-isbn","test-book",996,new Date(System.currentTimeMillis()));
         BookService  bookService = (BookService)ctx.getBean("bookService");
         bookService.insertBook(book);
-        Book bk = bookService.findBookByIsbn("isbn-333-");
+        Book bk = bookService.findBookByIsbn("test-isbn");
         out.println(bk);
-        /*out.println("事务模式："+((DataSource)ctx.getBean("dataSource")).getConnection().getAutoCommit());
-        FooService fooService = (FooService) ctx.getBean("fooService");
-        out.println(fooService);
+        /*out.pe) ctx.getBean("fooService");
+        out.println(fooService);rintln("事务模式："+((DataSource)ctx.getBean("dataSource")).getConnection().getAutoCommit());
+        FooService fooService = (FooServic
         Foo f=fooService.getFoo("Dicker");
         out.println(f);
         fooService.insertFoo (new Foo());*/

@@ -504,3 +504,91 @@ public class TemplateUtils {
 ### 声明式事务管理完整案例
 
 **书籍管理操作**
+
+SpringContext:
+
+```xml
+<!-- 引入数据库连接属性配置文件 -->
+<bean id="propertyConfigurer"
+      class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <property name="location" value="classpath:database.properties" />
+</bean>
+<!-- 配置数据源 -->  
+<!-- #DBCP数据库连接池配置属性详细内容可参考官网描述：
+       #http://commons.apache.org/proper/commons-dbcp/configuration.html 
+       -->
+<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+      destroy-method="close">
+    <property name="driverClassName" value="${driver}" />
+    <property name="url" value="${url}" />
+    <property name="username" value="${username}" />
+    <property name="password" value="${password}" />
+    <!-- 初始化连接大小 -->
+    <property name="initialSize" value="${initialSize}"></property>
+    <!-- 连接池最大空闲 -->
+    <property name="maxIdle" value="${maxIdle}"></property>
+    <!-- 连接池最小空闲 -->
+    <property name="minIdle" value="${minIdle}"></property>
+</bean>
+
+<!-- jdbc事务管理器 -->  
+<bean id="txManager"
+      class="org.springframework.jdbc.datasource.DataSourceTransactionManager">  
+    <property name="dataSource" ref="dataSource" />	
+</bean>  
+
+<!-- 2、注释模式事务：启动使用注解实现声明式事务管理的支持   -->
+<tx:annotation-driven transaction-manager="txManager" />
+<!-- 要创建的事务服务对象 -->
+<bean id="bookService" class="com.mooc.service.BookServiceImpl">
+    <property name="dataSource" ref="dataSource"/>
+</bean>
+<!-- 1、通过事务通知的(AOP)模式实现事务管理
+    事务通知-->
+<tx:advice id="txAdvice" transaction-manager="txManager">
+    <!--事务语义定义... -->
+    <tx:attributes>
+        <!-- 以get开头的所有方法都为只读事务 -->
+        <tx:method name="find*"  read-only="true"/>
+        <!-- 其它方法使用默认事务设置 -->
+        <tx:method name="*"/>
+    </tx:attributes>
+</tx:advice>
+<!-- 确保上述事务通知对定义在BookService接口中的方法都起作用，
+           即对每个方法都开启一个对应的事务 -->
+<aop:config>
+    <aop:pointcut id="bookServiceOperation" expression="execution(* com.mooc.service.BookService.*(..))"/>
+    <aop:advisor advice-ref="txAdvice" pointcut-ref="bookServiceOperation"/>
+</aop:config>
+```
+
+
+
+## 两种事务管理的区别
+
+- 编程式事务允许用户在代码中精确定义事务的边界
+- 声明式事务有助于用户将操作与事务规则进行解耦
+  - 基于AOP交由Spring容器实现；
+  - 实现关注点聚焦在业务逻辑上。
+- 概括而言：
+  - 编程式事务侵入到业务代码里面，但是提供了更加详细的事务管理控制；而声明式事务由于基于AOP，所以既能起到事务管理的作用，又可以不影响业务代码的具体实现。
+
+
+
+## 两种事务管理的选择
+
+- 小型应用、事务操作少：
+  - 建议**编程式事务管理**实现：TransactionTemplate；
+  - 简单、显式操作、直观明显、可以设置事务名称。
+- 大型应用，事务操作量多：
+  - 业务复杂度高，关联性紧密，建议**声明式事务管理**实现
+  - 关注点聚焦到业务层面，实现业务和事务的解耦
+
+
+
+## 通用问题解决方案
+
+- 事务管理器类型
+  - 基于不同的数据源选择对应的事务管理器；
+  - 选择正确的PlatformTransactionManager实现类；
+  - 全局事务的选择：JtaTransactionManager。

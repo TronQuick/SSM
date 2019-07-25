@@ -21,7 +21,7 @@
 		<property name="username" value="${username}" />
 		<property name="password" value="${password}" />
     </bean>
-	<!-- 配置数据源 -->  
+	<!-- 配置数据源 -->
 	<!-- #DBCP数据库连接池配置属性详细内容可参考官网描述：
        #http://commons.apache.org/proper/commons-dbcp/configuration.html 
        -->
@@ -45,11 +45,12 @@
         <property name="dataSource" ref="dataSource" />
     </bean>  
     <!--事务模板 -->
-    <!-- 2、注释模式事务：启动使用注解实现声明式事务管理的支持   -->
+    <!-- 2、注释模式事务必要：启动使用注解实现声明式事务管理的支持   -->
     <tx:annotation-driven transaction-manager="txManager" />
     <!-- 想创建的服务对象：this is the service object that we want to make transactional -->
     <bean id="fooService" class="com.mooc.service.DefaultFooService"/>
     <bean id="xbeanService" class="com.mooc.service.XbeanServiceImpl"/>
+
     <!-- 1、通过事务通知的模式实现事务
     事务通知：the transactional advice (what 'happens'; see the <aop:advisor/> bean below) -->
     <tx:advice id="txAdvice" transaction-manager="txManager">
