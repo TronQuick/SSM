@@ -5,10 +5,10 @@ import java.io.IOException;
 
 public class EncodingFilter implements Filter {
 
-    private String encoding="UTF-8";
+    private String encoding ="UTF-8";
 
     public void init(FilterConfig filterConfig) throws ServletException {
-        if (filterConfig.getInitParameter("ENCODING")!=null)
+        if(filterConfig.getInitParameter("ENCODING")!=null)
             encoding = filterConfig.getInitParameter("ENCODING");
     }
 

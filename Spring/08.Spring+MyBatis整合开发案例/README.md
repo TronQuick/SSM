@@ -47,7 +47,16 @@
   - 全局定义与组织
 - sm_service
   - 持久层、业务层
+  
   - Mybatis依赖、Spring依赖
+  
+  - 注意：pom.xml中要修改
+  
+    ```xml
+    <packaging>jar</packaing>
+    ```
+  
+    
 - sm_web
   - 表现层
   - Servlet依赖
@@ -127,3 +136,45 @@
 - 编码过滤器
 - 核心控制器
   - Servlet对象由Web容器管理，Service由IOC容器管理
+
+
+
+## 功能实现
+
+- 部门管理
+- 员工管理
+- 登录及个人中心
+- 日志处理
+
+
+
+### 部门管理
+
+- 部门信息的增删改查
+- 步骤
+  - 实体类
+  - Dao接口与Sql映射文件
+  - Service接口与其实现类
+  - 控制器
+  - 页面
+
+
+
+### 员工管理
+
+- 员工信息的增删改查
+- 关注点
+  - 员工与部门的关联关系
+  - 默认登陆密码
+
+
+
+- myBatis外键映射配置
+
+```xml
+Staff的did属性，作为与Department关联的外键，这样配置
+<association property="department" column="did" javaType="Department" select="com.imooc.sm.dao.DepartmentDao.selectById" />
+```
+
+
+
