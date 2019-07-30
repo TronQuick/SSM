@@ -34,6 +34,7 @@ public class StaffController {
         request.setAttribute("DLIST",list);
         request.getRequestDispatcher("../staff_add.jsp").forward(request,response);
     }
+
     public void add(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String account = request.getParameter("account");
         String name = request.getParameter("name");
@@ -69,9 +70,10 @@ public class StaffController {
         request.setAttribute("DLIST",list);
         request.getRequestDispatcher("../staff_edit.jsp").forward(request,response);
     }
+
     public void edit(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Integer id = Integer.parseInt(request.getParameter("id"));
-        String account = request.getParameter("account");
+        String account = request.getParameter("a ccount");
         String name = request.getParameter("name");
         String sex = request.getParameter("sex");
         String idNumber = request.getParameter("idNumber");
@@ -84,6 +86,7 @@ public class StaffController {
         }
         Integer did = Integer.parseInt(request.getParameter("did"));
 
+        // 通过ID获取已有的staff对象再去改其中的值。
         Staff staff = staffService.get(id);
         staff.setInfo(info);
         staff.setBornDate(bornDate);

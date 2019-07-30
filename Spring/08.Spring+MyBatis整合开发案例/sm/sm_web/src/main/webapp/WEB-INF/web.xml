@@ -18,6 +18,21 @@
     <url-pattern>/*</url-pattern>
   </filter-mapping>
 
+
+  <!--登录过滤器-->
+  <filter>
+    <filter-name>Login</filter-name>
+    <filter-class>com.imooc.sm.global.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>Login</filter-name>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>Login</filter-name>
+    <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+
   <!--核心控制器-->
   <servlet>
     <servlet-name>Global</servlet-name>
@@ -27,7 +42,6 @@
     <servlet-name>Global</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
-
 
 
 </web-app>

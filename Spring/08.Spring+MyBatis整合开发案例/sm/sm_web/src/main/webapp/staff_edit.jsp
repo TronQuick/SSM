@@ -49,6 +49,7 @@
                             <span class="title">部门：</span>
                             <div class="li_r">
                                 <select name="did">
+                                    <%--下拉列表--%>
                                     <c:forEach items="${DLIST}" var="dep">
                                         <c:if test="${OBJ.did==dep.id}">
                                             <option value="${dep.id}" selected="selected">${dep.name}</option>

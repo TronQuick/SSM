@@ -14,7 +14,6 @@ import java.util.List;
 @Service("staffService")
 public class StaffServiceImpl implements StaffService {
 
-
     @Autowired
     @Qualifier("staffDao")
     private StaffDao staffDao;

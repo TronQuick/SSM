@@ -178,3 +178,88 @@ Staff的did属性，作为与Department关联的外键，这样配置
 
 
 
+
+
+### 登陆与个人中心
+
+- 登录、退出、个人信息、修改密码
+- 关注点
+  - Session操作
+  - 登陆过滤器
+
+
+
+### 日志处理
+
+- 日志查看、自动记录
+- 关注点
+  - 业务功能设计
+  - 通知处理
+
+
+
+**日志代理类示例：**
+
+```java
+@Component
+@Aspect
+public class LogAdvice {
+    @Autowired
+    private LogService logService;
+    
+    @AfterReturning("execution(* com.imooc.sm.controller.*.*(..)) && !execution(* com.imooc.sm.controller.SelfController.*(..)) && !execution(* com.imooc.sm.controller.*.to*(..))")
+    public void operationLog(JoinPoint joinPoint){
+        Log log = new Log();
+        log.setMoudle(joinPoint.getTarget().getClass().getSimpleName());
+        log.setOperation(joinPoint.getSignature().getName());
+        HttpServletRequest request =(HttpServletRequest) joinPoint.getArgs()[0];
+        HttpSession session = request.getSession();
+        Object obj = session.getAttribute("USER");
+        Staff staff =(Staff)obj;
+        log.setOperator(staff.getAccount());
+        log.setResult("成功");
+        logService.addOperationLog(log);
+    }
+    @AfterThrowing(throwing ="e",pointcut ="execution(* com.imooc.sm.controller.*.*(..)) && !execution(* com.imooc.sm.controller.SelfController.*(..))")
+    public void systemLog(JoinPoint joinPoint,Throwable e){
+        Log log = new Log();
+        log.setMoudle(joinPoint.getTarget().getClass().getSimpleName());
+        log.setOperation(joinPoint.getSignature().getName());
+        HttpServletRequest request =(HttpServletRequest) joinPoint.getArgs()[0];
+        HttpSession session = request.getSession();
+        Object obj = session.getAttribute("USER");
+        Staff staff =(Staff)obj;
+        log.setOperator(staff.getAccount());
+        log.setResult(e.getClass().getSimpleName());
+        logService.addSystemLog(log);
+    }
+
+    @After("execution(* com.imooc.sm.controller.SelfController.login(..))")
+    public void loginLog(JoinPoint joinPoint){
+        log(joinPoint);
+    }
+    @Before("execution(* com.imooc.sm.controller.SelfController.logout(..))")
+    public void logoutLog(JoinPoint joinPoint){
+        log(joinPoint);
+    }
+    private void log(JoinPoint joinPoint){
+        Log log = new Log();
+        log.setMoudle(joinPoint.getTarget().getClass().getSimpleName());
+        log.setOperation(joinPoint.getSignature().getName());
+        HttpServletRequest request =(HttpServletRequest) joinPoint.getArgs()[0];
+        HttpSession session = request.getSession();
+        Object obj = session.getAttribute("USER");
+        if(obj==null){
+            log.setOperator(request.getParameter("account"));
+            log.setResult("失败");
+        }else {
+            Staff staff = (Staff) obj;
+            log.setOperator(staff.getAccount());
+            log.setResult("成功");
+        }
+        logService.addLoginLog(log);
+    }
+}
+
+```
+
