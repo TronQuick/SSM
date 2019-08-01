@@ -39,6 +39,7 @@ public class CourseController {
     /**
      * 通过id查询课程
      */
+
     @GetMapping(value = "/getById/{id}")
     public ModelAndView getById(@PathVariable(value = "id") int id){
         ModelAndView modelAndView = new ModelAndView();
