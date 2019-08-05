@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <filter>
+        <filter-name>encoding</filter-name>
+        <filter-class>com.imooc.oa.global.EncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <!--配置初始化参数-->
+            <param-value>utf-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>encoding</filter-name>
+        <!--配置所有请求都过滤-->
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <!--将静态资源请求叫给servlet处理-->
+    <servlet-mapping>
+        <!--第一种方式，配置文件夹下文件-->
+        <servlet-name>default</servlet-name>
+        <url-pattern>/assets/*</url-pattern>
+        <url-pattern>/js/*</url-pattern>
+        <url-pattern>/vendor/*</url-pattern>
+
+        <!--第二种方式，配置文件后缀-->
+        <url-pattern>*.js</url-pattern>
+        <url-pattern>*.jpg</url-pattern>
+        <url-pattern>*.gif</url-pattern>
+        <url-pattern>*.png</url-pattern>
+        <url-pattern>*.css</url-pattern>
+    </servlet-mapping>
+
+    <!--配置SpringMVC-->
+    <servlet>
+        <servlet-name>SpringMVC</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!--初始化参数指定配置文件-->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:spring-web.xml</param-value>
+        </init-param>
+        <!--项目启动时自动加载-->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <!--配置请求路径-->
+    <servlet-mapping>
+        <servlet-name>SpringMVC</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

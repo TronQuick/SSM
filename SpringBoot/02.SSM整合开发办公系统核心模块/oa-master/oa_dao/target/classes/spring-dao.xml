@@ -1,0 +1,34 @@
+﻿<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.imooc.oa.dao"/>
+
+    <!--配置数据源-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/oa?useUnicode=true&amp;characterEncoding=utf-8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+    </bean>
+
+    <!--session工厂-->
+    <bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--链接数据库-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--此处声明别名，使得com.imooc.oa.entity下可以使用类名做映射体现于*Dao.xml文件的parameterType返回-->
+        <property name="typeAliasesPackage" value="com.imooc.oa.entity"/>
+    </bean>
+
+    <!--配置映射器接口-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sessionFactory"/>
+        <!--自动扫描com.imooc.oa.dao包并将所有*接口*和映射文件关联起来-->
+        <property name="basePackage" value="com.imooc.oa.dao"/>
+    </bean>
+
+</beans>

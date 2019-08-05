@@ -1,0 +1,41 @@
+2019-08-05 11:58:42.214  INFO 16472 --- [main] c.i.m.MyspringbootApplication            : Starting MyspringbootApplication on DESKTOP-CI1I1CL with PID 16472 (started by Administrator in C:\Users\Administrator\Desktop\JavaWeb\SSM\SpringBoot\01.Spring Bootå…¥é—¨\myspringboot)
+2019-08-05 11:58:42.217  INFO 16472 --- [main] c.i.m.MyspringbootApplication            : No active profile set, falling back to default profiles: default
+2019-08-05 11:58:43.105  INFO 16472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2019-08-05 11:58:43.122  INFO 16472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-05 11:58:43.123  INFO 16472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-05 11:58:43.196  INFO 16472 --- [main] o.a.c.c.C.[.[localhost].[/myspringboot]  : Initializing Spring embedded WebApplicationContext
+2019-08-05 11:58:43.196  INFO 16472 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 940 ms
+2019-08-05 11:58:43.335  INFO 16472 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 11:58:43.462  INFO 16472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/myspringboot'
+2019-08-05 11:58:43.464  INFO 16472 --- [main] c.i.m.MyspringbootApplication            : Started MyspringbootApplication in 1.531 seconds (JVM running for 2.203)
+2019-08-05 14:57:02.298  INFO 18756 --- [main] c.i.m.MyspringbootApplication            : Starting MyspringbootApplication on DESKTOP-CI1I1CL with PID 18756 (started by Administrator in C:\Users\Administrator\Desktop\JavaWeb\SSM\SpringBoot\01.Spring Bootå…¥é—¨\myspringboot)
+2019-08-05 14:57:02.302  INFO 18756 --- [main] c.i.m.MyspringbootApplication            : No active profile set, falling back to default profiles: default
+2019-08-05 14:57:03.422  INFO 18756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-05 14:57:03.462  INFO 18756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-05 14:57:03.464  INFO 18756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-05 14:57:03.594  INFO 18756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-05 14:57:03.595  INFO 18756 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1228 ms
+2019-08-05 14:57:03.819  INFO 18756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 14:57:03.953  INFO 18756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-05 14:57:03.956  INFO 18756 --- [main] c.i.m.MyspringbootApplication            : Started MyspringbootApplication in 2.215 seconds (JVM running for 3.461)
+2019-08-05 14:57:46.677  INFO 18756 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-05 14:57:46.678  INFO 18756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-05 14:57:46.685  INFO 18756 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-08-05 15:31:51.809  INFO 8328 --- [main] c.i.m.MyspringbootApplication            : Starting MyspringbootApplication on DESKTOP-CI1I1CL with PID 8328 (started by Administrator in C:\Users\Administrator\Desktop\JavaWeb\SSM\SpringBoot\01.Spring Bootå…¥é—¨\myspringboot)
+2019-08-05 15:31:51.812  INFO 8328 --- [main] c.i.m.MyspringbootApplication            : The following profiles are active: dev
+2019-08-05 15:31:52.801  INFO 8328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-05 15:31:52.819  INFO 8328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-05 15:31:52.820  INFO 8328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-05 15:31:52.890  INFO 8328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-05 15:31:52.890  INFO 8328 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1013 ms
+2019-08-05 15:31:53.036  INFO 8328 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 15:31:53.179  INFO 8328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-08-05 15:31:53.182  INFO 8328 --- [main] c.i.m.MyspringbootApplication            : Started MyspringbootApplication in 1.773 seconds (JVM running for 2.455)
+2019-08-05 15:32:01.917  INFO 8328 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-05 15:32:01.917  INFO 8328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-05 15:32:01.922  INFO 8328 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2019-08-05 15:45:29.401  INFO 12864 --- [main] c.i.m.MyspringbootApplicationTests       : Starting MyspringbootApplicationTests on DESKTOP-CI1I1CL with PID 12864 (started by Administrator in C:\Users\Administrator\Desktop\JavaWeb\SSM\SpringBoot\01.Spring BootÈëÃÅ\myspringboot)
+2019-08-05 15:45:29.402  INFO 12864 --- [main] c.i.m.MyspringbootApplicationTests       : The following profiles are active: dev
+2019-08-05 15:45:30.984  INFO 12864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-05 15:45:31.304  INFO 12864 --- [main] c.i.m.MyspringbootApplicationTests       : Started MyspringbootApplicationTests in 2.273 seconds (JVM running for 3.033)
+2019-08-05 15:45:31.611  INFO 12864 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
